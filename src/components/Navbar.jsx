@@ -71,12 +71,15 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
+            <a href="https://youtu.be/h7MYJghRWt0?si=p_9_FmF5hW5rRONC"
+              target="_blank" rel="noopener noreferrer">
             <Button
               id="product-button"
               title="Watch Trailer"
               rightIcon={<TiLocationArrow />}
               containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
             />
+            </a>
           </div>
 
           {/* Navigation Links and Audio Button */}

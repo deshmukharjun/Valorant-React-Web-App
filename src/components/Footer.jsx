@@ -27,16 +27,17 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <p className="text-center text-sm font-light md:text-right">
-            Made by {' '}
-            <a
-          href="https://www.arjundeshmukh.me"
-          target="_blank" rel="noopener noreferrer"
-          className="text-center text-sm font-light underline hover:font-medium md:text-right"
-        >
-          Arjun Deshmukh
-        </a>
-        </p>
+        <div>
+          <p className="text-center text-sm font-light md:text-right">
+              Made by {' '}
+              <a
+                href="https://www.arjundeshmukh.me"
+                target="_blank" rel="noopener noreferrer"
+                className="text-center text-sm font-light underline hover:font-medium md:text-right">
+                  Arjun Deshmukh
+              </a>
+          </p>
+        </div>
 
         
       </div>

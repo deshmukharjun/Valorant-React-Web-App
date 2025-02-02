@@ -154,12 +154,15 @@ const Hero = () => {
               Enter the 5 shooter FPS <br /> Unleash the Play Economy
             </p>
 
+            <a href="https://playvalorant.com/en-us/download/"
+          target="_blank" rel="noopener noreferrer">
             <Button
               id="watch-trailer"
               title="Download"
               leftIcon={<TiLocationArrow />}
               containerClass="bg-yellow-300 flex-center gap-1"
             />
+            </a>
           </div>
         </div>
       </div>
