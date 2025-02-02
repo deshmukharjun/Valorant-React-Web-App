@@ -27,13 +27,18 @@ const Footer = () => {
             </a>
           ))}
         </div>
-
-        <a
-          href="#privacy-policy"
-          className="text-center text-sm font-light hover:underline md:text-right"
+        <p className="text-center text-sm font-light md:text-right">
+            Made by {' '}
+            <a
+          href="https://www.arjundeshmukh.me"
+          target="_blank" rel="noopener noreferrer"
+          className="text-center text-sm font-light underline hover:font-medium md:text-right"
         >
-          Privacy Policy
+          Arjun Deshmukh
         </a>
+        </p>
+
+        
       </div>
     </footer>
   );
